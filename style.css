@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+* {
+    font-family: "Tilt Neon", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    height: 70px;
+}
+
+nav .logo {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(212, 73, 73);
+}
+
+nav .links a {
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+    transition: padding 0.25s ease;
+}
+
+nav .links a:hover {
+    padding-bottom: 2px;
+    color: rgb(212, 73, 73);
+    border-bottom: 2px solid rgb(212, 73, 73);
+}
+
+nav .links a:not(:last-child) {
+    margin-right: 20px;
+}
+
+nav .login button {
+    font-size: 15px;
+    font-weight: 550;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+nav .login button:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+nav .login .signup {
+    color: white;
+    background-color: rgb(202, 73, 73);
+}
+
+nav .login .signup:hover {
+    background-color: rgb(139, 48, 48);
+}
+
+header {
+    padding: 0 0 0 80px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .left {
+    width: 700px;
+}
+
+header .left h1 {
+    font-size: 45px;
+}
+
+header .left h1 span {
+    color: rgb(197, 56, 56);
+}
+
+header .left p {
+    color: rgba(143, 143, 143, 0.801);
+}
+
+header img {
+    width: 500px;
+    height: 500px;
+}
+
+header .left .buy_now {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+    padding: 13px 11px;
+    color: rgb(255, 203, 203);
+    background-color: rgb(43, 29, 29);
+    border-radius: 30px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+header .left .buy_now:active {
+    background-color: #000;
+}
+
+header .left .buy_now i {
+    font-size: 20px;
+    background-color: rgb(255, 216, 216);
+    color: #331515d3;
+    padding: 7px;
+    margin-left: 10px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+header .left .buy_now i:hover {
+    transform: rotate(-360deg);
+    padding: 10px;
+}
+
+header .left .buy_now i:active {
+    transform: rotate(-330deg);
+}
